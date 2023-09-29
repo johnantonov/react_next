@@ -1,0 +1,23 @@
+.list {
+  background: inherit;
+  display: flex;
+  justify-content: space-between;
+  gap: 7px;
+}
+.list li {
+  font-family: Helvetica, sans-serif;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.list li:hover {
+  color: var(--hoverText);
+}
+
+@media (min-width: 1300px) {
+  .list li {
+    font-size: 22px;
+  }
+}

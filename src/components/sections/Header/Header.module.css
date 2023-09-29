@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  color: var(--usualTextColor);
+}
+
+.buttonWrapper, .buttonWrapper div {
+  display: flex;
+  align-items: center;
+}
+
+.buttonWrapper a:hover div svg path {
+  fill: var(--hoverText)
+}
+
+.nav a img {
+  color: black;
+}
+
+@media (max-width: 1000px) {
+  .buttonWrapper {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .buttonWrapper div {
+    display: none;
+  }
+}
+@media (min-width: 650px) {
+  .mobileNav {
+    display: none;
+  }
+}
+@media (max-width: 649px) {
+  .nav > nav {
+    display: none;
+  }
+}

@@ -1,0 +1,35 @@
+.list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.list li a {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1250px) {
+  .list li a svg {
+    width: 75%;
+  }  
+}
+
+@media (max-width: 550px) {
+  .list li:nth-child(5) {
+    display: none;
+  }
+}
+
+@media (
+  max-width: 400px) {
+  .list li:nth-child(1), 
+  .list li:nth-child(3),
+  .list li:nth-child(5) {
+    display: none;
+  }
+  .list li a svg {
+    width: 50%;
+  }  
+}

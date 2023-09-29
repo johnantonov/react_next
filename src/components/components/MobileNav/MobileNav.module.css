@@ -1,0 +1,27 @@
+.burger {
+  background: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: column;
+  width: 115px;
+  padding: 7px;
+  border-radius: 5px;
+  background: var(--bgColor);
+}
+
+.nav ul li {
+  margin-top: 3px;
+  border-bottom: 2px solid aqua;
+}
+
+.nav ul li:hover {
+  color: var(--hoverText);
+}
+
+.burger:hover svg {
+  fill: var(--hoverText);
+}

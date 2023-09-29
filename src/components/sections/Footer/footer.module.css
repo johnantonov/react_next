@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer > div {
+  display: flex;
+}
+
+@media (max-width: 950px) {
+  .footer nav {
+    display: none;
+  }
+}

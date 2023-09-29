@@ -1,0 +1,11 @@
+
+@media (min-width: 900px) {
+  .nav ul {
+    gap: 10px;
+  }
+}
+@media (min-width: 1500px) {
+  .nav ul {
+    gap: 42px;
+  }
+}

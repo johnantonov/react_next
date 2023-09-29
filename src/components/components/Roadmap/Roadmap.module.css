@@ -1,0 +1,87 @@
+.road {
+  margin-bottom: 50px;
+  color: var(--usualTextColor);
+}
+
+.road__header {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.road__title {
+  opacity: 1;
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 118.519%; 
+  text-transform: uppercase;
+}
+
+.road__text {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 155.417%;
+
+  background: linear-gradient(180deg, #FFFFFF -7.66%, rgba(255, 255, 255, 0.64) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.road__slider {
+  display: flex;
+}
+
+.road__slide {
+  width: 450px;
+  height: 500px;
+}
+
+.slide__title {
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 116.563%;
+  letter-spacing: 2.08px;
+  color: #4672FF;
+}
+
+.slide__text {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 155.417%; 
+
+  background: linear-gradient(180deg, #FFFFFF -7.66%, rgba(255, 255, 255, 0.64) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@media (max-width: 1000px) {
+  .road__title {
+    font-size: 32px;
+  }
+  .road__slide {
+    width: 235px; 
+    height: 261.445px;
+  }
+  .slide__title {
+    font-size: 16.732px;
+  }
+  .slide__text {
+    font-size: 12.549px;
+  }
+}
+
+@media (max-width: 768px) {
+  .road__title {
+    text-align: left !important;
+  }
+  .road__text {
+    display: none;
+  }
+}

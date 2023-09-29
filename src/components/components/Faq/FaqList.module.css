@@ -1,0 +1,23 @@
+.faqIsClosed {
+  background-image: url(../../../../public/img/faq/plus.svg) !important;
+  background-repeat: no-repeat !important;
+  background-position: center right !important;
+}
+.faqIsOpened {
+  background-image: url(../../../../public/img/faq/minus.svg) !important;
+  background-repeat: no-repeat !important;
+  background-position: center right !important;
+}
+.faqIsClosed, .faqIsOpened {
+  transition: background-image 0.3s ease;
+}
+.faq__answer {
+  overflow: hidden;
+  transition: all 0.3s ease;
+  max-height: 0px !important;
+}
+.faq__answer_open {
+  padding: 13px 0;
+  border-top: 2px solid #484848;
+  max-height: 400px !important;
+}

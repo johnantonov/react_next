@@ -1,0 +1,32 @@
+.partners {
+  margin-bottom: 50px;
+}
+.partners__title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.partners > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.partners > div * {
+  width: 300px;
+  height: 116px;
+}
+.partners div div img {
+  width: 150px;
+}
+
+@media (max-width: 1200px) {
+  .partners > div {
+    gap: 12px;
+  }
+  .partners > div * {
+    width: 150px;
+    height: 80px;
+  }
+  .partners div div img {
+    width: 100px;
+  }
+}
